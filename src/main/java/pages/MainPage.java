@@ -32,7 +32,7 @@ public class MainPage extends BasePageObject {
         findBy(By.name("register")).click();
         Reporter.log("Log in performed", true);
     }
-     
+
     public void openFlightsPage() {
         findBy(By.xpath("//a[contains(text(),'Flights')]")).click();
     }
