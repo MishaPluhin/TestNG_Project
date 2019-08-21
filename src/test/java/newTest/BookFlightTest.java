@@ -26,6 +26,6 @@ public class BookFlightTest extends TestBase {
         mainPage.bookFlightInThePast();
         Assert.assertTrue(mainPage.verifyErrorMessageForPastDateIsPresent(),"Flight should not be booked in the past");
     }
-    
+
 }
 
